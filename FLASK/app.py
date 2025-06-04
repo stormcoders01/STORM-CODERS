@@ -800,7 +800,7 @@ ELEM#      NOMINAL     ACTUAL    LOW_TOL  UPP_TOL    DEV  OUT_OF_TOL   CONTROL
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host='0.0.0.0',debug=True)
     
 
 
